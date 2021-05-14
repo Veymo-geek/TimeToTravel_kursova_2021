@@ -1,0 +1,34 @@
+@import "../../assets/styles/mixins";
+
+.login {
+  .login-block {
+    margin: 250px auto 0;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .ant-form-item-control-input-content {
+      text-align: end;
+      .ant-btn {
+        width: 100%;
+      }
+    }
+    .sign-up-link {
+      .ant-form-item-control-input-content {
+        text-align: center;
+      }
+      justify-content: flex-end;
+    }
+    .sign-in-btn {
+      justify-content: flex-end;
+    }
+  }
+}
+
+@include xs {
+  .login {
+    .login-block {
+      margin-top: 50px;
+    }
+  }
+}

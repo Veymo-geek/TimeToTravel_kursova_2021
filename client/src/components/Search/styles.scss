@@ -1,0 +1,17 @@
+.search {
+  margin: 50px 0 50px;
+  display: flex;
+  justify-content: center;
+  .ant-row {
+    width: 100%;
+    .ant-col {
+      .ant-input,
+      .ant-input-number,
+      .ant-picker,
+      .ant-select,
+      .ant-btn {
+        width: 100%;
+      }
+    }
+  }
+}

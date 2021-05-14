@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f7f7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+  }
+}
+
+.ant-btn {
+  background-color: #f38f00;
+  color: #fff;
+  border-color: #f38f00;
+  box-shadow: none;
+}
+
+.ant-btn:hover {
+  background-color: #fff;
+  color: #f38f00;
+  border-color: #f38f00;
+}
+
+.ant-btn:focus {
+  background-color: #fff;
+  color: #f38f00;
+  border-color: #f38f00;
+}
+
+.ant-btn-primary {
+  background-color: #fff;
+  color: #f38f00;
+  border-color: #f38f00;
+  box-shadow: none;
+}
+
+.ant-btn-primary:hover {
+  background-color: #f38f00;
+  color: #fff;
+  border-color: #f38f00;
+}
+
+.ant-input:hover {
+  box-shadow: none;
+  border-color: #f38f00;
+}
+.ant-input:focus {
+  border-color: #f38f00;
+  box-shadow: none;
+}
+.ant-input-password:hover {
+  box-shadow: none !important;
+  border-color: #f38f00 !important;
+}
+
+.ant-input-password:focus {
+  .ant-input {
+    border-color: #f38f00 !important;
+    box-shadow: none !important;
+  }
+}
+
+.ant-picker:hover {
+  box-shadow: none;
+  border-color: #f38f00;
+}
+.ant-picker-focused {
+  border-color: #f38f00;
+  box-shadow: none;
+}
+
+.ant-input-affix-wrapper:hover {
+  border-color: #f38f00 !important;
+  box-shadow: none !important;
+}
+
+.ant-input-affix-wrapper-focused {
+  border-color: #f38f00 !important;
+  box-shadow: none !important;
+}
+
+.ant-input-number:hover {
+  border-color: #f38f00 !important;
+  box-shadow: none !important;
+}
+
+.ant-input-number-focused {
+  border-color: #f38f00 !important;
+  box-shadow: none !important;
+}

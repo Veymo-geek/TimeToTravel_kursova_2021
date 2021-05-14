@@ -1,0 +1,28 @@
+.header {
+  height: 48px;
+  margin-top: 10px;
+  .logo-link {
+    height: 100%;
+    cursor: pointer;
+    .logo-block {
+      display: flex;
+      align-items: center;
+      height: inherit;
+      .logo {
+        height: inherit;
+        padding: 10px 18px;
+        background-color: #f38f00;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 4px;
+        font-weight: 500;
+      }
+      .logo-text {
+        font-size: 18px;
+        color: #4f6c81;
+        margin-left: 8px;
+        font-weight: bold;
+      }
+    }
+  }
+}
